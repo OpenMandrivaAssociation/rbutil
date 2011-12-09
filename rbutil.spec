@@ -9,7 +9,7 @@ Group:		System/Configuration/Hardware
 URL:		http://www.rockbox.org/
 Source:		http://download.rockbox.org/rbutil/source/%{name}_%{version}-src.tar.bz2
 BuildRequires:	qt4-devel 
-BuildRequires:	libusb1.0-devel 
+BuildRequires:	usb1-devel
 Patch0:		werror_sec.patch
  
 
