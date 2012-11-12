@@ -1,0 +1,17 @@
+Index: rbutil/rbutilqt/base/bootloaderinstallsansa.cpp
+===================================================================
+--- rbutil/rbutilqt/base/bootloaderinstallsansa.cpp	(revision 31185)
++++ rbutil/rbutilqt/base/bootloaderinstallsansa.cpp	(working copy)
+@@ -251,10 +251,10 @@
+ #if defined(Q_OS_WIN32)
+         sprintf(sansa->diskname, "\\\\.\\PhysicalDrive%i", devicename.toInt());
+ #elif defined(Q_OS_MACX)
+-        sprintf(sansa->diskname,
++        sprintf(sansa->diskname, "%s",
+             qPrintable(devicename.remove(QRegExp("s[0-9]+$"))));
+ #else
+-        sprintf(sansa->diskname,
++        sprintf(sansa->diskname, "%s",
+             qPrintable(devicename.remove(QRegExp("[0-9]+$"))));
+ #endif
+         qDebug() << "[BootloaderInstallSansa] sansapatcher: overriding scan, using"
