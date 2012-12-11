@@ -62,3 +62,11 @@ install -m 755 rbutil/rbutilqt/RockboxUtility -D %{buildroot}%{_bindir}/%{name}
 %{_bindir}/rbutil
 %{_datadir}/applications/%{name}.desktop
 %{_iconsdir}/%{name}.png
+
+
+%changelog
+* Fri Dec 09 2011 Alexander Khrukin <akhrukin@mandriva.org> 1.2.11-1
++ Revision: 739380
+- BR fix
+- imported package rbutil
+
