@@ -3,7 +3,7 @@
 Summary:	Rockbox (rbutil) firmware for mp3 players 
 Name:		rbutil
 Version:	1.2.11
-Release:	1
+Release:	2
 License:	GPLv2
 Group:		System/Configuration/Hardware
 URL:		http://www.rockbox.org/
@@ -14,12 +14,14 @@ Patch0:		werror_sec.patch
  
 
 %description
-Rockbox (rbutil) is an open source firmware for mp3 players, written from scratch. 
-It runs on a wide range of players:
+Rockbox (rbutil) is an open source firmware for mp3 players, written from
+scratch. It runs on a wide range of players:
 
-* Apple: 1st through 5.5th generation iPod, iPod Mini and 1st generation iPod Nano
+* Apple: 1st through 5.5th generation iPod, iPod Mini and 1st generation iPod
+Nano
 (not the Shuffle, 2nd/3rd/4th gen Nano, Classic or Touch)
-* Archos: Jukebox 5000, 6000, Studio, Recorder, FM Recorder, Recorder V2 and Ondio
+* Archos: Jukebox 5000, 6000, Studio, Recorder, FM Recorder, Recorder V2 and
+Ondio
 * Cowon: iAudio X5, X5V, X5L, M5, M5L, M3 and M3L
 * iriver: iHP100 series, H100 series, H300 series and H10 series
 * Olympus: M:Robe 100
