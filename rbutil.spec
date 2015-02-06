@@ -3,7 +3,7 @@
 Summary:	Rockbox (rbutil) firmware for mp3 players 
 Name:		rbutil
 Version:	1.2.11
-Release:	2
+Release:	3
 License:	GPLv2
 Group:		System/Configuration/Hardware
 URL:		http://www.rockbox.org/
