@@ -6,7 +6,7 @@ Version:	1.2.11
 Release:	3
 License:	GPLv2
 Group:		System/Configuration/Hardware
-URL:		http://www.rockbox.org/
+URL:		https://www.rockbox.org/
 Source:		http://download.rockbox.org/rbutil/source/%{name}_%{version}-src.tar.bz2
 BuildRequires:	qt4-devel 
 BuildRequires:	usb1-devel
