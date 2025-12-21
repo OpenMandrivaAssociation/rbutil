@@ -8,6 +8,7 @@ License:	GPLv2
 Group:		System/Configuration/Hardware
 URL:		https://www.rockbox.org/
 Source:		http://download.rockbox.org/rbutil/source/%{name}_%{version}-src.tar.bz2
+BuildRequires:	make
 BuildRequires:	qt4-devel 
 BuildRequires:	usb1-devel
 Patch0:		werror_sec.patch
